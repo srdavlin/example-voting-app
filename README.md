@@ -1,3 +1,5 @@
+# Example of edited Branch Policy 
+
 Example Voting (Instavote) App
 =========
 
