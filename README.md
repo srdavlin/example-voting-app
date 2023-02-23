@@ -1,4 +1,4 @@
-# Example of edited Branch Policy, edited - SRD
+# Example of edited Branch Policy, edited - SRD 02-23-2023
 
 Example Voting (Instavote) App
 =========
