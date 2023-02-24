@@ -6,15 +6,14 @@ metadata:
     app: vote
     tier: front
   name: vote
+  namespace: instavote  
 spec:
   ports:
-  - name: "80"
-    nodePort: 30100
-    port: 80
+  - name: "8081"
     protocol: TCP
-    targetPort: 80
+    targetPort: 8081
   selector:
     app: vote
-  type: NodePort
+  type: LoadBalancer
 status:
   loadBalancer: {}
