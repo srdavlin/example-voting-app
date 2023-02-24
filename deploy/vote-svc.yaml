@@ -5,7 +5,7 @@ metadata:
   labels:
     app: vote
     tier: front
-  name: vote
+  name: example-voting-app
 spec:
   ports:
   - port: "8081"
