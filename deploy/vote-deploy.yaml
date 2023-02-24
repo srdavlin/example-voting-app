@@ -5,7 +5,7 @@ metadata:
   labels:
     app: vote
     tier: front
-  name: example-voting-app
+  name: vote
   namespace: instavote  
 spec:
   replicas: 3
