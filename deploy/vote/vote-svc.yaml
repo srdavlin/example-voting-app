@@ -6,7 +6,6 @@ metadata:
     app: vote
     tier: front
   name: vote
-  namespace: instavote
 spec:
   ports:
   - port: 80

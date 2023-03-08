@@ -5,7 +5,6 @@ metadata:
   labels:
     app: worker
   name: worker
-  namespace: instavote  
 spec:
   replicas: 3
   selector:
