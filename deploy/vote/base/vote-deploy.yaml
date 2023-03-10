@@ -4,7 +4,6 @@ metadata:
   creationTimestamp: null
   labels:
     app: vote
-    tier: front
   name: vote
 spec:
   replicas: 1
@@ -17,7 +16,6 @@ spec:
       creationTimestamp: null
       labels:
         app: vote
-        tier: front
     spec:
       containers:
       - image: schoolofdevops/vote:v2
