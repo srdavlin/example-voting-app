@@ -7,11 +7,9 @@ metadata:
     tier: front
   name: vote
 spec:
-<<<<<<< HEAD:deploy/vote/vote-deploy.yaml
   replicas: 3
 =======
   replicas: 1
->>>>>>> 4562ed9 (update vote-deploy):deploy/vote/base/vote-deploy.yaml
   selector:
     matchLabels:
       app: vote
