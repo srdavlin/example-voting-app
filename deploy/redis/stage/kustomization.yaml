@@ -5,4 +5,10 @@ resources:
 patchesStrategicMerge:
 - deploy.yaml
 - service.yaml
+commonLabels:
+  project: vote
+  env: stage
+commonAnnotations:
+  supported-by: steve@sr-defense.com
+namespace: stage
 
