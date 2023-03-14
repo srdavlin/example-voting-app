@@ -2,12 +2,6 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
 - ../base
-commonAnnotations:
-  supported-by: steve@sr-defense.com
-labels:
-- includeSelectors: true
-  pairs:
-    project: example-voting-app
 patches:
 - path: deploy.yaml
 - path: service.yaml
