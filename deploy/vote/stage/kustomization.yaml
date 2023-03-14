@@ -6,3 +6,10 @@ patchesStrategicMerge:
 - deploy.yaml
 - service.yaml
 namespace: stage
+images:
+  - name: schoolofdevops/vote:v3
+    newTag: v3
+replicas:
+  - name: vote
+    count: 8
+
