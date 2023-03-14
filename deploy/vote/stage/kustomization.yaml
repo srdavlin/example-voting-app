@@ -12,15 +12,5 @@ images:
 replicas:
   - name: vote
     count: 6
-commonLabels:
-  project: example-voting-app
-  env: stage
-commonAnnotations:
-  supported-by: steve@sr-defense.com
-configMapGenerator:
-  - name: vote
-    literals:
-      - OPTION_A=DEV
-      - OPTION_B=STAGE
 
 
