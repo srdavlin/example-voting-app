@@ -7,7 +7,6 @@ patchesStrategicMerge:
 - service.yaml
 commonLabels:
   project: example-voting-app
-  env: stage
 commonAnnotations:
   supported-by: steve@sr-defense.com
 
