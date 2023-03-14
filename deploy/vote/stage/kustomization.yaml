@@ -17,5 +17,10 @@ commonLables:
   env: stage
 commonAnnotations:
   supported-by: steve@sr-defense.com
+configMapGenerator:
+  - name: vote
+    literals:
+      - OPTION_A=DEV
+      - OPTION_B=STAGE
 
 
