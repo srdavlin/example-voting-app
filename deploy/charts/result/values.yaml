@@ -7,7 +7,7 @@ image:
   repository: srdefense/result
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "main-8e230d58-1680197751" # {"$imagepolicy": "flux-system:result:tag"}
+  tag: "main-8e230d58-1680198341" # {"$imagepolicy": "flux-system:result:tag"}
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
