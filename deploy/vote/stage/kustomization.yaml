@@ -8,6 +8,7 @@ patchesStrategicMerge:
 namespace: stage
 images:
 - name: schoolofdevops/vote
+  newName: srdefense/vote
   newTag: main-8e230d58-1680121571 # {"$imagepolicy": "flux-system:vote:tag"}
 replicas:
 - name: vote
